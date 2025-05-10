@@ -98,9 +98,12 @@ Para fazer deploy manualmente:
 - Vite como bundler
 
 ## Autor
-[Seu Nome]
+[Pedro henrique Scabelo]
 
 ---
+
+Link do deploy:
+https://avaliacao-lifedev-dc6e9.web.app/
 
 *Nota: Este projeto foi desenvolvido como parte da avaliação da disciplina de Desenvolvimento Web 3.*
 
