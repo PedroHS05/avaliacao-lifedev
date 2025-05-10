@@ -1,0 +1,40 @@
+.post_container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.post_container h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: var(--text-color);
+}
+
+.post_info {
+  margin-bottom: 20px;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 10px;
+}
+
+.post_author {
+  font-style: italic;
+  color: var(--text-color);
+  opacity: 0.8;
+}
+
+.post_content {
+  line-height: 1.6;
+  font-size: 1.1em;
+  color: var(--text-color);
+}
+
+.loading, .not_found {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1.2em;
+  color: var(--text-color);
+}
+
+.not_found {
+  color: #ff6b6b;
+} 

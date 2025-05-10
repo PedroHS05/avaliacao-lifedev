@@ -1,0 +1,110 @@
+.profile {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.profile h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: var(--text-color);
+}
+
+.user_info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  background-color: var(--background-secondary);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px var(--box-shadow);
+}
+
+.avatar {
+  margin-right: 20px;
+}
+
+.avatar img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.avatar_placeholder {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.user_details h2 {
+  margin: 0 0 10px 0;
+  font-size: 1.8em;
+  color: var(--text-color);
+}
+
+.user_details p {
+  color: var(--text-color);
+  opacity: 0.7;
+  margin: 0;
+}
+
+.user_posts {
+  margin-top: 30px;
+}
+
+.user_posts h3 {
+  border-bottom: 2px solid var(--border-color);
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  color: var(--text-color);
+}
+
+.no_posts {
+  text-align: center;
+  padding: 30px;
+  background-color: var(--background-secondary);
+  border-radius: 8px;
+}
+
+.no_posts p {
+  margin-bottom: 15px;
+  color: var(--text-color);
+  opacity: 0.7;
+}
+
+.posts_list h4 {
+  margin-bottom: 20px;
+  color: var(--text-color);
+  font-weight: normal;
+}
+
+.post_item {
+  background-color: var(--background-secondary);
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 1px 3px var(--box-shadow);
+}
+
+.post_item h4 {
+  margin: 0;
+  font-size: 1.2em;
+  flex: 1;
+  color: var(--text-color);
+}
+
+.post_actions {
+  display: flex;
+  gap: 10px;
+} 

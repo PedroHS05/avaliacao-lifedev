@@ -5,6 +5,67 @@
     justify-content: center;
   }
   
+  .home h1 {
+    font-size: 2.2em;
+    margin-bottom: 10px;
+    text-align: center;
+    color: var(--text-color);
+  }
+  
+  .post_list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 25px;
+    margin: 30px auto;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  .post {
+    background-color: var(--background-secondary);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px var(--box-shadow);
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .post:hover {
+    transform: translateY(-5px);
+  }
+  
+  .post h2 {
+    margin-bottom: 10px;
+    font-size: 1.6em;
+    color: var(--text-color);
+  }
+  
+  .createdby {
+    font-style: italic;
+    color: var(--text-color);
+    opacity: 0.7;
+    font-size: 0.8em;
+    margin-bottom: 15px;
+    flex-grow: 1;
+  }
+  
+  .noposts {
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+    padding: 30px;
+    background-color: var(--background-secondary);
+    border-radius: 8px;
+  }
+  
+  .noposts p {
+    margin-bottom: 20px;
+    color: var(--text-color);
+    opacity: 0.7;
+    font-size: 1.1em;
+  }
+  
   .search_form {
     max-width: 100%;
     width: 60%;
@@ -16,14 +77,9 @@
   .search_form input {
     margin-right: 10px;
     width: 50%;
-  }
-  
-  .noposts {
-    text-align: center;
-  }
-  
-  .noposts p {
-    margin-bottom: 1.5em;
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+    background-color: transparent;
   }
   
   .noposts a {
