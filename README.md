@@ -27,7 +27,6 @@ Este é um Mini Blog para desenvolvedores compartilharem seus conhecimentos e ex
 - `Dashboard` - Listagem de posts
 - `CreatePost` - Formulário para criação de posts
 - `Post` - Visualização individual de post
-- `ThemeToggle` - Alternância entre tema claro e escuro
 
 ### 4. Hooks Personalizados
 - `useAuthentication` - Gerencia operações de autenticação
@@ -35,7 +34,6 @@ Este é um Mini Blog para desenvolvedores compartilharem seus conhecimentos e ex
 - `useFetchDocuments` - Busca múltiplos documentos do Firestore
 - `useFetchDocument` - Busca um documento específico do Firestore
 - `useInsertDocument` - Insere um novo documento no Firestore
-- `useTheme` - Gerencia tema claro/escuro
 
 ### 5. Deploy
 - Configuração do Firebase Hosting
@@ -81,13 +79,6 @@ Para fazer deploy manualmente:
    - Navegue até a Dashboard para ver os posts existentes
    - Crie um novo post através do botão "Criar novo post"
    - Visualize o post criado clicando em "Ver"
-   - Experimente alternar entre os temas claro e escuro
-
-## Problemas e Soluções
-
-### Tema Escuro
-- Problema: Textos desapareciam no tema escuro
-- Solução: Ajustamos as variáveis CSS para garantir contraste adequado, modificando cores de texto no tema escuro para "#f0f0f0"
 
 ## Tecnologias Utilizadas
 - React
