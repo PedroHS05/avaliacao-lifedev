@@ -3,6 +3,7 @@ import { Link, useSearchParams } from "react-router-dom";
 import { useFetchDocuments } from "../../hooks/useFetchDocuments";
 import styles from "./Search.module.css";
 
+//comentario apenas de teste
 const Search = () => {
   const [searchParams] = useSearchParams();
   const query = searchParams.get("q");
